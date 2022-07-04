@@ -2,11 +2,11 @@
   <div class="layout-topbar">
     <p-menubar [model]="menu">
       <ng-template pTemplate="start">
-        <img src="../../assets/logo.png" height="60" class="mr-6" alt="logo">
+        <img src="../../assets/logo.png" height="40" class="mr-6" alt="logo">
       </ng-template>
       <ng-template pTemplate="end">
-        <button pButton type="button" label="Sign in" class="p-button-text"></button>
-        <button pButton type="button" label="Create Account" class="p-button-rounded"></button>
+        <button pButton type="button" label="Sign in" class="p-button-sm p-button-text"></button>
+        <button pButton type="button" label="Create Account" class="p-button-sm p-button-rounded"></button>
       </ng-template>
     </p-menubar>
   </div>
@@ -22,6 +22,7 @@
   </div> -->
   <div class="layout-main-container">
         <div class="layout-main">
+            <img src="../../assets/landing-header.jpg" alt="landing-header" style="width: 100%;">
             <router-outlet></router-outlet>
         </div>
         <!-- <div class="layout-footer">
